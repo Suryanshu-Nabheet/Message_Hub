@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="contact-wrapper">
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p class="info-description">Feel free to reach out. I'm always open to discussing new projects, opportunities, and partnerships.</p>
+                
+                <div class="info-items">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>suryanshunab@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>India</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/suryanshu-nabheet/" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/Suryanshu-Nabheet" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <h2>Send a Message</h2>
+                <form id="contactForm" action="https://formsubmit.co/suryanshunab@gmail.com" method="POST">
+                    <!-- Success Page -->
+                    <input type="hidden" name="_next" value="./success.html">
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <div class="input-wrapper">
+                                <i class="fas fa-user"></i>
+                                <input type="text" name="name" id="name" placeholder="Your Name" required>
+                            </div>
+                            <span class="error-message" id="nameError"></span>
+                        </div>
+                
+                        <div class="form-group">
+                            <div class="input-wrapper">
+                                <i class="fas fa-envelope"></i>
+                                <input type="email" name="email" id="email" placeholder="Your Email" required>
+                            </div>
+                            <span class="error-message" id="emailError"></span>
+                        </div>
+                    </div>
+                
+                    <div class="form-group">
+                        <div class="input-wrapper">
+                            <i class="fas fa-tag"></i>
+                            <input type="text" name="subject" id="subject" placeholder="Subject" required>
+                        </div>
+                        <span class="error-message" id="subjectError"></span>
+                    </div>
+                
+                    <div class="form-group">
+                        <div class="input-wrapper">
+                            <i class="fas fa-message"></i>
+                            <textarea name="message" id="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <span class="error-message" id="messageError"></span>
+                    </div>
+                
+                    <button type="submit" class="submit-btn">
+                        <span class="btn-text">Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
