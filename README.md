@@ -1,5 +1,5 @@
        Online Portfolio - Send Message
-Description
+
 The Online Portfolio - Send Message is a personal portfolio project built using HTML, CSS, and JavaScript. This portfolio showcases web development skills and features an interactive form for sending messages. It provides a platform for potential employers or collaborators to get in touch directly with the owner via the contact form.
 
 Features
