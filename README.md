@@ -1,11 +1,6 @@
 # Message Hub
 A dynamic real-time Messaging Website developed using HTML, CSS, and JavaScript. It offers instant messaging and a clean, responsive interface for smooth communication.
 
-### Demo Video
-
-[![Demo Video](https://img.youtube.com/vi/Y9dXxEezKBE/0.jpg)](https://www.youtube.com/watch?v=Y9dXxEezKBE)
-
-
 
 <h3 align="left">Technologies Used:</h3>
 <p align="left">
